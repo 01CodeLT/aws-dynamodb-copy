@@ -1,0 +1,27 @@
+{
+  "name": "@01coder/dynamodb-copy",
+  "version": "1.0.0",
+  "description": "An AWS utility for copying dynamodb tables accross AWS accounts.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/01CodeLT/aws-dynamodb-copy.git"
+  },
+  "keywords": [
+    "aws",
+    "dynamodb"
+  ],
+  "author": "Luke Tinnion",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/01CodeLT/aws-dynamodb-copy/issues"
+  },
+  "homepage": "https://github.com/01CodeLT/aws-dynamodb-copy#readme",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.427.0",
+    "readline": "^1.3.0"
+  }
+}
